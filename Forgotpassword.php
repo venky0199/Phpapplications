@@ -199,7 +199,7 @@
                     echo "<div class='error-message'>Username or mobile number not found.</div>";
                 } else {
                     // If username or mobile number is found, redirect to a new page
-                    header("Location: NewPage.php");
+                    header("Location: PasswordCorrection.php");
                     exit();
                 }
 
