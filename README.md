@@ -18,7 +18,7 @@ to open data your program dbname and table name should match, you can open db on
 in RDP WE Have to change local to all granted in Apache(httpd Xampp.conf) after changing we have stop apache and start again then we can access it in browser
 
 
-For Database settings:
+For Database settings: in RDP edge type localhost/phpmyadim
 
 Database name = Register
 Table name = Register
