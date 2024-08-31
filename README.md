@@ -35,6 +35,33 @@ to open data your program dbname and table name should match, you can open db on
 
 in RDP WE Have to change local to all granted in **Apache(httpd Xampp.conf)** after changing we have stop apache and start again then we can access it in browser
 
+**NOTE:**
+
+After Creating all the setup every thing works well, but if we take the backup of the instance and again we launch the new instance from the backup taken. 
+
+we again have to connect to RDP and again open the Xampp control panel and again we have to start Apache and SQL.
+
+To over come this we need to follow few steps
+
+Start menu and search for **Task Scheduler**
+
+Select **Task Scheduler library**==> go to **Action** Tab above ==> select New folder and give new folder and create folder => ok
+
+Go to the Folder created ==> In **Action** tab again ==> **Create task** 
+
+In **General** => Give name => Select **Run whether user is logged on or not** => select **Run with highest priviliges** =>ok
+
+In **Triggers** => Select **At startUP** ==> make sure Enabled check box is checked => ok
+
+In **Actions** => New => Browser select Xammp folder select **xampp control.exe** =>ok
+
+In **condition** ==> ok
+
+In **settions** ==>ok after that enter the password of the Ec2 instance
+
+ You can find after restarting the RDP of that instance we can find the control panel automatically started
+
+
 
 
 
