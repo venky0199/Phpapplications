@@ -62,6 +62,9 @@ In **settions** ==>ok after that enter the password of the Ec2 instance
  You can find after restarting the RDP of that instance we can find the control panel automatically started
 
 
+=========================================================
+
+
  Commands if the Apache did not start and it is occupied by PID 4(This is only if the Apache did not start and showing error)
 
 Open CMD and run as administrator
