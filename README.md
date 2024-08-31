@@ -16,3 +16,17 @@ to open data your program dbname and table name should match, you can open db on
 >) on Apache click on config = change local TO all granted. Then you can See The database In the browser
 
 in RDP WE Have to change local to all granted in Apache(httpd Xampp.conf) after changing we have stop apache and start again then we can access it in browser
+
+
+For Database settings:
+
+Database name = Register
+Table name = Register
+In table details: we have to enter below details
+
+1. ID == A.I select checkbox
+2. username, select Varchar
+3. mobile , select Varchar
+4. password , select Varchar
+
+
