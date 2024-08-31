@@ -11,7 +11,8 @@ ok.   or in windows defender firewall advanced settings go to windows defender f
 
 to open data your program dbname and table name should match, you can open db only on the RDp.
 
-⇒ to open the Phpmyadmin in the browser of using link In RDl go to the xampp control Panel
+⇒ to open the Phpmyadmin in the browser of using link In RDp go to the xampp control Panel
 
 >) on Apache click on config = change local TO all granted. Then you can See The database In the browser
 
+in RDP WE Have to change local to all granted in Apache(httpd Xampp.conf) after changing we have stop apache and start again then we can access it in browser
