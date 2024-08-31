@@ -49,11 +49,11 @@ Select **Task Scheduler library**==> go to **Action** Tab above ==> select New f
 
 Go to the Folder created ==> In **Action** tab again ==> **Create task** 
 
-In **General** => Give name => Select **Run whether user is logged on or not** => select **Run with highest priviliges** =>ok
+In **General** => Give name => Select **Run whether user is logged on or not** => select **Run with highest priviliges**
 
-In **Triggers** => Select **At startUP** ==> make sure Enabled check box is checked => ok
+In **Triggers** => Select **At startUP** ==> make sure Enabled check box is checked
 
-In **Actions** => New => Browser select Xammp folder select **xampp control.exe** =>ok
+In **Actions** => New => Browser select Xammp folder select **xampp control.exe** =>
 
 In **condition** ==> ok
 
