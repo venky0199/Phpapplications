@@ -21,7 +21,9 @@ in RDP WE Have to change local to all granted in Apache(httpd Xampp.conf) after 
 For Database configaration: in RDP edge type localhost/phpmyadim
 
 Database name = Register
+
 Table name = Register
+
 In table details: we have to enter below details
 
 1. ID == A.I select checkbox
