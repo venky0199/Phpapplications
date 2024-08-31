@@ -7,7 +7,7 @@ to check whether files are working in the localhost of RdP
 to open the files In the browser, you need to some settings) windows defendar firewall =) turn windows Defender Firewall on or off
 
 trun off windows Defender firewall 
-ok.
+ok.   or in windows defender firewall advanced settings go to windows defender firewall advanced properties in public profile inbound rules select allow
 
 to open data your program dbname and table name should match, you can open db only on the RDp.
 
