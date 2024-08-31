@@ -1,8 +1,9 @@
 # Phpapplications
 to deploy Php website
 
-============================================= PHP files ===============================================
-==== Launch windows Instance, connect to ROP Install google chrome, download xamppfile, In htdocs keep all the  files your want to deploy.
+======== PHP files ======
+
+Launch windows Instance, connect to ROP Install google chrome, download xamppfile, In htdocs keep all the  files your want to deploy.
 
 to check whether files are working in the localhost of RdP
 
@@ -11,8 +12,8 @@ to open the files In the browser, you need to some settings) windows defendar fi
 trun off windows Defender firewall 
 ok.   or in windows defender firewall advanced settings go to windows defender firewall advanced properties in public profile inbound rules select allow
 
-===========================================================================================================================================================
-======================================================== Data Base ============================================================================
+
+====== Data Base ========
 For Database configaration: in RDP edge type localhost/phpmyadim
 
 Database name = Register
