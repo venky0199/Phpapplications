@@ -14,7 +14,7 @@
         }
         .error-message {
             background-color: #ff6666;
-            color: white;
+            color: Blue;
             padding: 10px;
             border-radius: 5px;
             font-weight: bold;
