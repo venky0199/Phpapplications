@@ -1,3 +1,33 @@
+**PHP deployment for linux =====================================================================**
+In chrome search for xampp downloan and copy link address for linux
+in linux server wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.12/xampp-linux-x64-8.2.12-0-installer.run
+ chmod +x xampp-linux-x64-8.2.12-0-installer.run (This is used to change the file to an executable file)
+ ./xampp-linux-x64-8.2.12-0-installer.run (Execute the file) and click enter 3-4 times 
+ There you can find the path that our xampp files installed i.e **/opt/lampp**
+ go to the path cd **/opt/lampp/** here you can finf all the files
+ 
+ in **htdocs** folder you can keep all the php files
+ 
+ To access phpmyadmin in browser 
+ 
+ go to the path /opt/lampp/etc/extra/
+ 
+ in file vi httpd-xampp.conf in line 13 remove local (Require local) to all granted(Require all granted) you can access phpmyadmin in browser restart the lampp server by
+ 
+ Restart : **in root /opt/lampp/lampp restart**
+ 
+If we create image and launch and instance then again we have to start server by  **in root /opt/lampp/lampp start**
+
+To avoid that we have to do some set up like:
+
+in linux **crontab -e**
+
+**@reboot /opt/lampp/lampp start**
+
+
+
+
+
 # Phpapplications
 to deploy Php website
 
